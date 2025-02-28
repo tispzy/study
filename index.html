@@ -35,99 +35,136 @@
         a:hover {
             text-decoration: underline;
         }
+        .empty {
+            color: #000000;
+        }
+        .lecture {
+            color: #53ec53;
+        }
+        .practice {
+            color: #f4544b;
+        }
     </style>
 </head>
 <body>
-    <h1>Розклад занять</h1>
-    
-    <h2>1. Розклад непарної неділі (1-15 тиждень)</h2>
+    <h1>Study Schedule</h1>
     <table>
         <tr>
-            <th>День</th>
-            <th>Час</th>
-            <th>Предмет</th>
-            <th>Тип</th>
-            <th>Преподаватель</th>
-            <th>Ссылка</th>
+            <th>Непарний тиждень</th>
         </tr>
         <tr>
-            <td>Понеділок</td>
-            <td>9:50 - 11:25</td>
-            <td>Теорія комунікацій</td>
-            <td>Лекція</td>
-            <td>доц. Кубко В.П.</td>
-            <td><a href="#">Ссылка</a></td>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
         </tr>
         <tr>
-            <td>Понеділок</td>
-            <td>13:30 - 15:05</td>
-            <td>Англійська мова</td>
-            <td>Практика</td>
-            <td>ст. викл. Томенко М.Г.</td>
-            <td><a href="#">Ссылка</a></td>
+            <td>8:00 - 8:45</td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
+            <td><a href="https://meet.google.com/wjn-dbak-cyj">Країнознавство </a><span class="lecture">Л</span></td>
+            <td class="empty">—</td>
         </tr>
         <tr>
-            <td>Вівторок</td>
-            <td>9:50 - 11:25</td>
-            <td>Академічна грамотність</td>
-            <td>Лекція</td>
-            <td>доц. Кубко В.П.</td>
-            <td><a href="#">Ссылка</a></td>
-        </tr>
-    </table>
-    
-    <h2>2. Розклад для непарної + парної неділі</h2>
-    <table>
-        <tr>
-            <th>День</th>
-            <th>Час</th>
-            <th>Предмет</th>
-            <th>Тип</th>
-            <th>Преподаватель</th>
-            <th>Неделя</th>
-            <th>Ссылка</th>
+            <td>09:50 - 11:25</td>
+            <td><a href="https://meet.google.com/ydc-nhge-hgu">Вступ до фаху</a> <span class="lecture">Л</span></td>
+            <td><a href="https://meet.google.com/iqh-meur-efb">Англійська (Grammar)</a> <span class="practice">Пр</span></td>
+            <td><a href="https://meet.google.com/zmx-zdak-xdn">Англійська мова</a> <span class="practice">Пр</span></td>
+            <td><a href="https://meet.google.com/wjn-dbak-cyj">Країнознавство</a> <span class="practice">Пр</span></td>
+            <td><a href="https://meet.google.com/mig-hxuy-rjs">Історія Міжнародних Відносин</a> <span class="lecture">Л</span></td>
+            <td><a href="https://meet.google.com/wwr-pwez-kkb">Історія Міжнародних Відносин</a> <span class="lecture">Л</span></td>
         </tr>
         <tr>
-            <td>Понеділок</td>
-            <td>9:50 - 11:25</td>
-            <td>Теорія комунікацій</td>
-            <td>Лекція</td>
-            <td>доц. Кубко В.П.</td>
-            <td>1-15</td>
-            <td><a href="#">Ссылка</a></td>
+            <td>11:40 - 12:25</td>
+            <td class="empty">—</td>
+            <td><a href="https://meet.google.com/rjy-mbei-eoy">Політологія</a> <span class="lecture">Л</td>
+            <td><a href="https://meet.google.com/npx-mchj-utt">Німецька мова</a> <span class="practice">Пр</span></td>
+            <td class="empty">—</td>
+            <td><a href="https://meet.google.com/hpi-xxrk-afc">Історія Міжнародних Відносин</a> <span class="practice">Пр</span></td>
         </tr>
         <tr>
-            <td>Понеділок</td>
             <td>12:30 - 13:15</td>
-            <td>Теорія комунікацій</td>
-            <td>Практика</td>
-            <td>доц. Кубко В.П.</td>
-            <td>2-14</td>
-            <td><a href="#">Ссылка</a></td>
+            <td class="empty">—</td>
+            <td><a href="https://meet.google.com/rjy-mbei-eoy">Політологія</a> <span class="lecture">Л</span></td>
+            <td><a href="https://meet.google.com/npx-mchj-utt">Німецька мова</a> <span class="practice">Пр</span></td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
         </tr>
     </table>
-    
-    <h2>3. Перелік предметів і викладачів</h2>
+
+    <table>
+        <tr>
+            <th>Парний тиждень</th>
+        </tr>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>8:00 - 9:35</td>
+            <td class="empty">—</td>
+            <td><a href="https://meet.google.com/rjy-mbei-eoy">Політологія </a><span class="practice">Пр</span></td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
+        </tr>
+        <tr>
+            <td>11:40 - 13:15</td>
+            <td><a href="https://meet.google.com/ydc-nhge-hgu">Вступ до фаху</a> <span class="practice">Пр</span></td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
+            <td><a href="https://meet.google.com/npx-mchj-utt">Німецька мова</a> <span class="practice">Пр</span></td>
+        </tr>
+    </table>
+
     <table>
         <tr>
             <th>Предмет</th>
-            <th>Преподаватель</th>
-            <th>Вид контролю</th>
+            <th>Лектор</th>
+            <th>Вид заліку</th>
         </tr>
         <tr>
-            <td>Теорія комунікацій</td>
-            <td>доц. Кубко В.П.</td>
+            <td>Вступ до фаху</td>
+            <td>Тетяна Миколаївна Моісеєва</td>
+            <td>Залік</td>
+        </tr>
+        <tr>
+            <td>Англійська мова (Grammar)</td>
+            <td>Марина Геннадіївна Томенко</td>
             <td></td>
+        </tr>
+        <tr>
+            <td>Країнознавство</td>
+            <td>Інна Борисівна Кривдіна</td>
+            <td>Екзамен</td>
+        </tr>
+        <tr>
+            <td>Історія міжнародних відносин</td>
+            <td>Пашаєва Ксенія. Ф</td>
+            <td>Екзамен</td>
         </tr>
         <tr>
             <td>Англійська мова</td>
-            <td>ст. викл. Томенко М.Г.</td>
-            <td></td>
+            <td>Еліна Борисівна Гродська </td>
+            <td>Залік</td>
         </tr>
         <tr>
-            <td>Академічна грамотність</td>
-            <td>доц. Кубко В.П.</td>
-            <td></td>
+            <td>Німецька мова</td>
+            <td>Світлана Іванівна Семенова</td>
+            <td>Залік</td>
+        </tr>
+        <tr>
+            <td>Політологія</td>
+            <td>Інна Борисівна Кривдіна</td>
+            <td>Екзамен</td>
         </tr>
     </table>
 </body>
