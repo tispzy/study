@@ -1,106 +1,213 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Расписание ІМ-24</title>
     <style>
         table {
             width: 100%;
             border-collapse: collapse;
+            font-family: Arial, sans-serif;
             margin-bottom: 20px;
         }
         th, td {
-            border: 1px solid black;
+            border: 1px solid #ddd;
             padding: 8px;
-            text-align: center;
+            text-align: left;
         }
         th {
             background-color: #f2f2f2;
         }
+        .green-letter {
+            color: green;
+            font-weight: bold;
+        }
+        .red-pr {
+            color: red;
+            font-weight: bold;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+       .schedule-title {
+            margin-top: 20px;
+            margin-bottom: 40px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <h2>Расписание непарной недели (1-15 неделя)</h2>
+    <div class="schedule-title">Розклад ІМ-24</div>
+
     <table>
+        <caption>1. Розклад непарного тижня (1-15 тиждень)</caption>
         <tr>
-            <th>День</th>
-            <th>Время</th>
-            <th>Предмет</th>
-            <th>Тип</th>
-            <th>Преподаватель</th>
-            <th>Ссылка</th>
+            <th>Час</th>
+            <th>Понеділок</th>
+            <th>Вівторок</th>
+            <th>Середа</th>
+            <th>Четвер</th>
+            <th>П'ятниця</th>
         </tr>
         <tr>
-            <td>Понедельник</td>
+            <td>8:00 - 8:45</td>
+            <td>—</td>
+            <td>—</td>
+            <td><a href="https://classroom.google.com/c/NTk0NTAzNDE5MTA5?hl=ru&cjc=pdaqrcs">Друга іноземна мова</a> <span class="red-pr">Пр</span></td>
+            <td>—</td>
+            <td>—</td>
+        </tr>
+        <tr>
+            <td>8:50 - 9:35</td>
+            <td>—</td>
+            <td>—</td>
+            <td><a href="https://classroom.google.com/c/NTk0NTAzNDE5MTA5?hl=ru&cjc=pdaqrcs">Друга іноземна мова</a> <span class="red-pr">Пр</span></td>
+            <td>—</td>
+            <td>—</td>
+        </tr>
+        <tr>
             <td>9:50 - 11:25</td>
-            <td>Теорія комунікацій</td>
-            <td>Лекція</td>
-            <td>доц. Кубко В.П.</td>
-            <td><a href="https://meet.google.com/vpx-dyap-xkk">Ссылка</a></td>
+            <td><a href="https://meet.google.com/vpx-dyap-xkk">Теорія комунікацій</a> <span class="green-letter">Л</span></td>
+            <td><a href="https://meet.google.com/cao-gdvw-mkn">Академічна грамотність</a> <span class="green-letter">Л</span></td>
+            <td><a href="https://classroom.google.com/c/NTk0NTAzNDE5MTA5?hl=ru&cjc=pdaqrcs">Українська мова за проф. спрям.</a> <span class="red-pr">Пр</span></td>
+            <td><a href="https://meet.google.com/qzi-ikgf-epi">Історія міжнародних відносин</a> <span class="green-letter">Л</span></td>
+            <td><a href="https://meet.google.com/nmm-xace-fvk">Теорія міжнародних відносин</a> <span class="green-letter">Л</span></td>
         </tr>
         <tr>
-            <td>Понедельник</td>
-            <td>13:30 - 15:05</td>
-            <td>Англійська мова</td>
-            <td>Практика</td>
-            <td>ст. викл. Томенко М.Г.</td>
-            <td><a href="https://meet.google.com/iqhmeur-efb?authuser=0">Ссылка</a></td>
+            <td>11:40 - 12:25</td>
+            <td>—</td>
+            <td><a href="https://classroom.google.com/c/NTk0NTAzNDE5MTA5?hl=ru&cjc=pdaqrcs">Українська мова за проф. спрям.</a> <span class="red-pr">Пр</span></td>
+            <td><a href="https://meet.google.com/iqh-meur-efb?authuser=0">Англійська мова</a> <span class="red-pr">Пр</span></td>
+            <td><a href="https://meet.google.com/qzi-ikgf-epi">Історія міжнародних відносин</a> <span class="red-pr">Пр</span></td>
+            <td>—</td>
         </tr>
         <tr>
-            <td>Вторник</td>
-            <td>9:50 - 11:25</td>
-            <td>Академічна грамотність</td>
-            <td>Лекція</td>
-            <td>доц. Кубко В.П.</td>
-            <td><a href="https://meet.google.com/cao-gdvw-mkn">Ссылка</a></td>
-        </tr>
-    </table>
-    
-    <h2>Расписание для непарной + парной недели</h2>
-    <table>
-        <tr>
-            <th>День</th>
-            <th>Время</th>
-            <th>Предмет</th>
-            <th>Тип</th>
-            <th>Преподаватель</th>
-            <th>Неделя</th>
-            <th>Ссылка</th>
-        </tr>
-        <tr>
-            <td>Понедельник</td>
-            <td>9:50 - 11:25</td>
-            <td>Теорія комунікацій</td>
-            <td>Лекція</td>
-            <td>доц. Кубко В.П.</td>
-            <td>1-15</td>
-            <td><a href="https://meet.google.com/vpx-dyap-xkk">Ссылка</a></td>
-        </tr>
-        <tr>
-            <td>Понедельник</td>
             <td>12:30 - 13:15</td>
-            <td>Теорія комунікацій</td>
-            <td>Практика</td>
-            <td>доц. Кубко В.П.</td>
-            <td>2-14</td>
-            <td><a href="https://meet.google.com/vpx-dyap-xkk">Ссылка</a></td>
+            <td><a href="https://meet.google.com/vpx-dyap-xkk">—</a>
+            <td><a href="https://meet.google.com/cao-gdvw-mkn">—</a>
+            <td><a href="https://meet.google.com/iqh-meur-efb?authuser=0">Англійська мова</a> <span class="red-pr">Пр</span></td>
+            <td><a href="https://meet.google.com/qzi-ikgf-epi">Історія міжнародних відносин</a> <span class="red-pr">Пр</span></td>
+            <td><a href="https://meet.google.com/nmm-xace-fvk">—</a>
+        </tr>
+        <tr>
+            <td>13:30 - 15:05</td>
+            <td><a href="https://meet.google.com/iqh-meur-efb?authuser=0">Англійська мова</a> <span class="red-pr">Пр</span></td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
         </tr>
     </table>
-    
-    <h2>Таблица предметов и преподавателей</h2>
+
     <table>
+        <caption>2. Розклад парного тижня (2-14 тижні)</caption>
+        <tr>
+            <th>Час</th>
+            <th>Понеділок</th>
+            <th>Вівторок</th>
+            <th>Середа</th>
+            <th>Четвер</th>
+            <th>П'ятниця</th>
+        </tr>
+        <tr>
+            <td>8:00 - 8:45</td>
+            <td>—</td>
+            <td>—</td>
+            <td><a href="https://classroom.google.com/c/NTk0NTAzNDE5MTA5?hl=ru&cjc=pdaqrcs">Друга іноземна мова</a> <span class="red-pr">Пр</span></td>
+            <td>—</td>
+            <td>—</td>
+        </tr>
+        <tr>
+            <td>8:50 - 9:35</td>
+            <td>—</td>
+            <td>—</td>
+            <td><a href="https://classroom.google.com/c/NTk0NTAzNDE5MTA5?hl=ru&cjc=pdaqrcs">Друга іноземна мова</a> <span class="red-pr">Пр</span></td>
+            <td>—</td>
+            <td>—</td>
+        </tr>
+        <tr>
+            <td>9:50 - 11:25</td>
+            <td><a href="https://meet.google.com/vpx-dyap-xkk">Теорія комунікацій</a> <span class="green-letter">Л</span></td>
+            <td><a href="https://meet.google.com/cao-gdvw-mkn">Академічна грамотність</a> <span class="green-letter">Л</span></td>
+            <td><a href="https://classroom.google.com/c/NTk0NTAzNDE5MTA5?hl=ru&cjc=pdaqrcs">Українська мова за проф. спрям.</a> <span class="red-pr">Пр</span></td>
+            <td><a href="https://meet.google.com/qzi-ikgf-epi">Історія міжнародних відносин</a> <span class="green-letter">Л</span></td>
+            <td><a href="https://meet.google.com/nmm-xace-fvk">Теорія міжнародних відносин</a> <span class="green-letter">Л</span></td>
+        </tr>
+        <tr>
+            <td>11:40 - 12:25</td>
+            <td>—</td>
+            <td><a href="https://classroom.google.com/c/NTk0NTAzNDE5MTA5?hl=ru&cjc=pdaqrcs">Українська мова за проф. спрям.</a> <span class="red-pr">Пр</span></td>
+            <td><a href="https://meet.google.com/iqh-meur-efb?authuser=0">Англійська мова</a> <span class="red-pr">Пр</span></td>
+            <td><a href="https://meet.google.com/qzi-ikgf-epi">Історія міжнародних відносин</a> <span class="red-pr">Пр</span></td>
+            <td>—</td>
+        </tr>
+        <tr>
+            <td>12:30 - 13:15</td>
+            <td><a href="https://meet.google.com/vpx-dyap-xkk">Теорія комунікацій</a> <span class="green-letter">Л</span></td>
+            <td><a href="https://meet.google.com/cao-gdvw-mkn">Академічна грамотність</a> <span class="green-letter">Л</span></td>
+            <td><a href="https://meet.google.com/iqh-meur-efb?authuser=0">Англійська мова</a> <span class="red-pr">Пр</span></td>
+            <td><a href="https://meet.google.com/qzi-ikgf-epi">Історія міжнародних відносин</a> <span class="red-pr">Пр</span></td>
+            <td><a href="https://meet.google.com/nmm-xace-fvk">Теорія міжнародних відносин</a> <span class="green-letter">Л</span></td>
+        </tr>
+        <tr>
+            <td>13:30 - 15:05</td>
+            <td><a href="https://meet.google.com/iqh-meur-efb?authuser=0">Англійська мова</a> <span class="red-pr">Пр</span></td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+        </tr>
+    </table>
+
+    <table>
+        <caption>3. Предмети, викладачі та контроль</caption>
         <tr>
             <th>Предмет</th>
-            <th>Преподаватель</th>
+            <th>Викладач</th>
+            <th>Вид контролю</th>
         </tr>
         <tr>
-            <td>Теорія комунікацій</td>
+            <td><a href="https://meet.google.com/vpx-dyap-xkk">Теорія комунікацій</a></td>
             <td>доц. Кубко В.П.</td>
+            <td>Залік</td>
         </tr>
         <tr>
-            <td>Англійська мова</td>
+            <td><a href="https://meet.google.com/cao-gdvw-mkn">Академічна грамотність</a></td>
+            <td>доц. Кубко В.П.</td>
+            <td>Залік</td>
+        </tr>
+        <tr>
+            <td><a href="https://classroom.google.com/c/NTk0NTAzNDE5MTA5?hl=ru&cjc=pdaqrcs">Українська мова за проф. спрямуванням</a></td>
+            <td>доц. Якубовська М.Г.</td>
+            <td>Залік</td>
+        </tr>
+        <tr>
+            <td><a href="https://meet.google.com/qzi-ikgf-epi">Історія міжнародних відносин</a></td>
+            <td>доц. Моісеєва Т.М.</td>
+            <td>Залік</td>
+        </tr>
+        <tr>
+            <td><a href="https://meet.google.com/nmm-xace-fvk">Теорія міжнародних відносин</a></td>
+            <td>доц. Бабіна В.О.</td>
+            <td>Залік</td>
+        </tr>
+        <tr>
+            <td><a href="https://classroom.google.com/c/NTk0NTAzNDE5MTA5?hl=ru&cjc=pdaqrcs">Друга іноземна мова</a></td>
+            <td>-</td>
+            <td>Залік</td>
+        </tr>
+        <tr>
+            <td><a href="https://meet.google.com/iqh-meur-efb?authuser=0">Англійська мова</a></td>
             <td>ст. викл. Томенко М.Г., доц. Гродська Е.Б.</td>
+            <td>Залік</td>
         </tr>
     </table>
 </body>
